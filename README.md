@@ -31,6 +31,11 @@ Berikut ringkasan dari data yang digunakan:
 ```
 
 ## 2. Tahapan Penelitian ##
+flowchart TD
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
 
 ## 3. Uji Stasioner ##
 Berdasarkan **Gambar 1** dapat dilihat bahwa secara subjektif data ISPU NO<sub>2</sub> yang dimiliki belum bersifat stasioner karena masih bisa dilihat terdapat kecenderungan naik atau turun.
