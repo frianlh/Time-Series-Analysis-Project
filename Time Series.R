@@ -7,7 +7,7 @@ library(normtest)
 library(ggplot2)
 
 #### Import Data ####
-df <- read_excel("C:/Users/TOSHIBA/Desktop/Semester 5/Runtun Waktu/Project Akhir/dataset.xlsx")
+df <- read_excel("C:/Users/dataset.xlsx")
 df <- data.frame("Waktu"=df$tanggal,"Index"=df$no2)
 View(df)
 
